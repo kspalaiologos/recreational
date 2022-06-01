@@ -1,0 +1,9 @@
+how to use:
+- put your tree in place of ``wa``tzt or keep it intact to see a demo
+- open `vim` and type `:e main` or run `vim main`
+- type gg2yy@"
+- wait until the program finishes, it will display an inverted tree
+
+details: takes input in prefix form, outputs in postfix form.
+requirements: a decently modern version of vim
+acknowledgements: xoreaxeax (Christopher Domas)
