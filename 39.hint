@@ -1,0 +1,21 @@
+-*-mode:text;coding:utf-8-*-
+
+$ uname -m
+x86_64
+$ ./cg39 "((()()())(()()()()){{}})"
+7
+
+どのように機能するのでしょうか?
+
+Handle input with:
+
+import sys
+import os
+p=sys.argv[1]
+k=lambda x:"(("+o(x//3)+")){}{}"+(x%3)*"()"if x>3 else"()"*x
+m=lambda x:"("+o(x//2)+"){}"+(x%2)*"()"if x>6 else"()"*x
+o=lambda x:min(k(x),m(x),key=len)
+i=sys.stdin.read()
+i=i[:-1] if i[-1]=='\n' else i
+r=''.join(["("+o(ord(c))+")"for c in i])+p
+os.system("./cg39 '%s'"%r)
