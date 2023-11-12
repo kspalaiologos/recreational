@@ -1,0 +1,23 @@
+@l
+in r1
+cner1,0
+cadr2,1
+cpsr1
+cjn%l
+movr3,r2
+modr3,2
+divr2,2
+movr4,r2
+addr2,r3
+@x
+popr1
+addr5,r1
+decr2
+jnzr2,%x
+@y
+popr1
+addr6,r1
+decr4
+jnzr4,%y
+outr6
+outr5

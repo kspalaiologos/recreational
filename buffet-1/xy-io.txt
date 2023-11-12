@@ -1,1 +1,0 @@
-Reads a number N, then reads N numbers comprising the list and writes them in sorted order.

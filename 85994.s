@@ -1,0 +1,14 @@
+mov r4,.a
+lbl 1
+in_ r1
+jz_ r1,3
+eq_ r1,r4
+jnz r1,2
+inc r3
+dec r2
+lbl 2
+inc r2
+jmp 1
+lbl 3
+eq_ r2,r3
+out r2

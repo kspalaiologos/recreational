@@ -1,0 +1,16 @@
+lbl 3
+mov r2,51
+lbl 1
+in_ r1
+dec r2
+jz_ r1,4
+jnz r2,1
+lbl 2
+in_ r1
+jz_ r1,4
+sub r1,10
+jz_ r1,3
+inc r3
+jmp 2
+lbl 4
+out r3

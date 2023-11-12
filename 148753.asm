@@ -1,0 +1,19 @@
+
+ORG 100H
+
+L:
+	MOV DX, P
+	MOV AH, 9
+	INT 21H
+	INT 21H
+	INT 21H
+	INT 21H
+
+	INC BYTE [P]
+	CMP BYTE [P], 'Z'
+	JLE L
+
+MOV ax, 4C00h
+INT 21h
+
+P DB "A", 10, "$"
