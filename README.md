@@ -9,7 +9,7 @@ Featuring:
 - 1 Boolfuck program
 - 26 Brainfuck programs
 - 10 Seed programs
-- 28 Malbolge programs
+- 29 Malbolge programs
 - 1 C++ program
 - 30 asm2bf programs
 - 4 ELF binaries (x86_64 asm)
