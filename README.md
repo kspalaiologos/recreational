@@ -23,7 +23,7 @@ Featuring:
 - 4 J programs
 - 2 Perl programs
 - 2 Lua programs
-- 3 Python programs
+- 4 Python programs
 - 2 Haskell programs
 - 1 Vim program
 - 1 Rust program
