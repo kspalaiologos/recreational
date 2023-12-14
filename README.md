@@ -4,7 +4,7 @@ A thingamabob repository that holds some recreational programming code that I wr
 
 Featuring:
 - 1 Normalised Malbolge program
-- 20 C programs
+- 21 C programs
 - 48 APL programs
 - 1 Boolfuck program
 - 26 Brainfuck programs
