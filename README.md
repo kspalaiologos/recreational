@@ -27,7 +27,8 @@ Featuring:
 - 2 Haskell programs
 - 1 Vim program
 - 1 Rust program
-- 1 JavaScript program
+- 2 JavaScript programs
+- 1 JCram program
 - 1 Dirac program
 
 Contents:
