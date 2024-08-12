@@ -19,7 +19,7 @@ Featuring:
 - 5 Befunge program
 - 1 KamilaLisp v0.1 program
 - 17 KamilaLisp v0.2 and v0.3 programs
-- 4 UNIX Shell programs
+- 5 UNIX Shell programs
 - 4 J programs
 - 2 Perl programs
 - 2 Lua programs
