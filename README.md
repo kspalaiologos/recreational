@@ -5,7 +5,7 @@ A thingamabob repository that holds some recreational programming code that I wr
 Featuring:
 - 1 Normalised Malbolge program
 - 21 C programs
-- 48 APL programs
+- 49 APL programs
 - 1 Boolfuck program
 - 26 Brainfuck programs
 - 10 Seed programs
@@ -27,8 +27,8 @@ Featuring:
 - 2 Haskell programs
 - 1 Vim program
 - 1 Rust program
-- 2 JavaScript programs
-- 1 JCram program
+- 3 JavaScript programs
+- 2 JCram program
 - 1 Dirac program
 
 Contents:
